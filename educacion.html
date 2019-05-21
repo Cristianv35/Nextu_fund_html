@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Jorge Cristian Valenciano">
+    <meta name="keywords" content="examen, final, fundamentos, html, netx, u">
+    <meta name="description" content="Examen final Fundamentos HTML - Netx U">
+
+     <title>Examen Fundamentos HTML - Jorge Valenciano</title>
+  </head>
+  <body>
+    <header>
+        <svg style="border: 0px solid black">
+            <image xlink:href="img/logo.svg" width="250px" height="350px"></image>
+        </svg><br>
+        <h1>Curriculum Vitae</h1>
+        <h2>Jorge Cristian Valenciano Chinchilla</h2>
+        <h3>Fecha de nacimiento: 26 de noviembre de 1976</h3>
+        <h3>Ingeniero Forestal, Instituto Tecnólogico de Costa Rica</h3>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;&nbsp;&nbsp;
+        <a href="educacion.html">Educación</a>&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;&nbsp;&nbsp;
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+        <h2>Educación</h2>
+        <table width="40%" cellpadding="2" cellspacing="2" colspan="2" bordercolor="#056E1D">
+            <tr>
+                <th width="10%">Año</th>
+                <th width="40%">Institución</th>
+                <th width="40%">Lugar</th>
+                <th width="10%">Culminó?</th>
+            </tr>
+            <tr>
+                <td width="10%">1993</td>
+                <td width="40%">Liceo Unesco</td>
+                <td width="40%">San Isidro</td>
+                <td width="10%">Sí</td>
+            </tr>
+            <tr>
+                <td width="10%">1998</td>
+                <td width="40%">ITCR</td>
+                <td width="40%">Cartago</td>
+                <td width="10%">Sí</td>
+            </tr>
+        </table>
+        <h3>Agregar Estudios</h3>
+                <form method="post" autocomplete="on" name="Formulario Estudios">
+                    <p><label for="año"><strong>Año:</strong></label>
+                        <select>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option></option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="institucion"><strong>Institución:</strong></label>
+                        <input type="text" name="caja_institucion" id="institucion">
+                    </p>
+                    <p>
+                        <label for="lugar" ><strong>Lugar:</strong></label>
+                        <textarea name="Area de texto" cols="25" rows="2"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+    </section>
+    <footer>
+        <p>
+        Email: <a href="mailto:cristianv35@hotmail.com">cristianv35@hotmail.com</a><br>
+        Teléfono: 8345-6733<br>
+        San José, Costa Rica
+        </p>
+    </footer>
+  </body>
+</html>
